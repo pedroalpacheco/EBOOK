@@ -1,0 +1,28 @@
+{
+  "name": "ws_megaSena",
+  "version": "1.0.0",
+  "description": "Web scarping de resultado de sorteio da mega sena no Brasil e armazenamento no mongodb local",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroalpacheco/ws_megaSena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroalpacheco/ws_megaSena/issues"
+  },
+  "homepage": "https://github.com/pedroalpacheco/ws_megaSena#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "mongoose": "^5.8.11",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "string": "^3.3.3"
+  }
+}
