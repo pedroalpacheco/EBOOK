@@ -1,0 +1,30 @@
+{
+  "name": "ws-olx",
+  "version": "1.0.0",
+  "description": "Projeto para fazer webscraping do https://www.olx.com.br/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroalpacheco/ws-olx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroalpacheco/ws-olx/issues"
+  },
+  "homepage": "https://github.com/pedroalpacheco/ws-olx#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "create-html": "^4.1.0",
+    "nodemailer": "^6.4.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "puppeteer": "^2.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
