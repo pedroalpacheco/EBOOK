@@ -1,0 +1,24 @@
+{
+  "name": "WS_automocao-TWITTER",
+  "version": "1.0.0",
+  "description": "Automação de autenticação e web scraping no twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroalpacheco/WS_automocao-TWITTER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroalpacheco/WS_automocao-TWITTER/issues"
+  },
+  "homepage": "https://github.com/pedroalpacheco/WS_automocao-TWITTER#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^2.1.1"
+  }
+}
