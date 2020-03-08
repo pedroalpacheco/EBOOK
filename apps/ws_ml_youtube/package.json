@@ -1,0 +1,16 @@
+{
+  "name": "ml_youtube",
+  "version": "1.0.0",
+  "description": "Machine learning - Usando naive bayes para classificar frases de videos do youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Al Pacheco",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "ml-bayes": "^1.0.5",
+    "request": "^2.88.0"
+  }
+}
