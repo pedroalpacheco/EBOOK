@@ -26,7 +26,7 @@ const dadosbrutos = async () =>{
 const listalinks = async () =>{
   const html = await dadosbrutos();
   const $ = await cheerio.load(html);
-  $('.OLXad-list-link').each(function(i, lnk){
+  $('.sc-1fcmfeb-2').contents().each(function(i, lnk){
     dados[i] = $(lnk).attr('href');
   });
   return dados
